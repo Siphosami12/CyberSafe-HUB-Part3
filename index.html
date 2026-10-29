@@ -1,177 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | CyberSafe Hub</title>
+
+    <title>CyberSafe Hub | Your Safety, Our Priority</title>
+   <!-- SEO metadata -->
+<meta name="description" content="CyberSafe Hub promotes cybersecurity awareness through online safety tips, educational resources, cyber news, and incident reporting.">
+<meta name="author" content="CyberSafe Hub">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph metadata for social media sharing -->
+<meta property="og:title" content="CyberSafe Hub | Your Safety, Our Priority">
+<meta property="og:description" content="Explore online safety tips, cybersecurity resources, and cyber awareness with CyberSafe Hub.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CyberSafe Hub">
+<meta property="og:image" content="Images/logo.jpg"> 
+
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
 </head>
 
 <body>
+    <header>
+        <a href="Home.html" class="brand">
+            <img src="Images/logo.jpg" alt="CyberSafe Hub logo">
+            <span>CyberSafe Hub</span>
+        </a>
 
-<header>
-    <div class="header-content">
+        <button id="menuToggle" class="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="mainNav">
+            ☰
+        </button>
 
-        <img src="Images/logo.jpg" alt="CyberSafe Hub Logo" class="logo">
+        <nav id="mainNav" aria-label="Main navigation">
+            <a href="Home.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="courses.html">Courses</a>
+            <a href="cyber_news.html">Cyber News</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="faq.html">FAQs</a>
+            <a href="report_incident.html">Report an Incident</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
 
-        <div class="brand">
-            <h1>CYBERSAFE HUB</h1>
-            <p>Your Safety, Our Priority</p>
-        </div>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO CYBERSAFE HUB</p>
 
-    </div>
+                <h1>Your Safety, Our Priority</h1>
 
-    <nav>
-          <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about_us.html">About Us</a></li>
-        <li><a href="Home.html">Resources</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
-         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="Report_Incident.html">Report Incident</a></li>
-        <li><a href="Cyber%20news%20%26%20updates.html">Cyber News &amp; Updates</a></li>
-        <li><a href="courses.html">Courses</a></li>
-        <li><a href="FAQ.html">FAQ</a></li>
-       
-    </ul>
+                <p>
+                    Discover how to protect your personal information,
+                    recognise cyber threats and develop safer online habits.
+                    CyberSafe Hub helps you navigate the digital world
+                    with greater awareness and confidence.
+                </p>
 
-    </nav>
-</header>
+                <a href="courses.html" class="button">
+                    Explore Our Courses
+                </a>
 
-<main>
+                <a href="report_incident.html" class="button button-outline">
+                    Report an Incident
+                </a>
+            </div>
+        </section>
 
-    <h2>Welcome to CyberSafe Hub</h2>
+        <section class="section">
+            <div class="section-heading">
+                <h2>Explore CyberSafe Hub</h2>
+                <p>
+                    Access helpful information and resources to strengthen
+                    your cybersecurity knowledge.
+                </p>
+            </div>
 
-    <p>
-        <strong>Your Safety, Our Priority.</strong>
-    </p>
+            <div class="card-grid">
+                <article class="info-card">
+                    <h3>Cybersecurity Courses</h3>
+                    <p>
+                        Learn about online threats, account security,
+                        privacy and responsible internet use.
+                    </p>
+                    <a href="courses.html">Explore courses →</a>
+                </article>
 
-    <p>
-        CyberSafe Hub is a cybersecurity awareness platform
-        designed to help individuals understand online threats
-        and learn how to stay safe in the digital world.
-    </p>
+                <article class="info-card">
+                    <h3>Cyber News and Updates</h3>
+                    <p>
+                        Discover cybersecurity developments and learn
+                        why awareness of online threats matters.
+                    </p>
+                    <a href="cyber_news.html">Read cyber news →</a>
+                </article>
 
-    <p>
-        We provide simple and practical information about
-        cybersecurity, online privacy, phishing, malware,
-        password security and other common cyber threats.
-    </p>
+                <article class="info-card">
+                    <h3>Safety Gallery</h3>
+                    <p>
+                        Explore visual information that supports
+                        cybersecurity awareness and safe browsing.
+                    </p>
+                    <a href="Gallery.html">View gallery →</a>
+                </article>
 
-    <h2>What We Offer</h2>
+                <article class="info-card">
+                    <h3>Frequently Asked Questions</h3>
+                    <p>
+                        Find answers to common questions about passwords,
+                        phishing, online privacy and security.
+                    </p>
+                    <a href="faq.html">View FAQs →</a>
+                </article>
 
-    <h3>Cybersecurity Tips</h3>
+                <article class="info-card">
+                    <h3>Report a Cyber Incident</h3>
+                    <p>
+                        Find guidance on what to do when you encounter
+                        suspicious online activity or a potential scam.
+                    </p>
+                    <a href="report_incident.html">Incident reporting →</a>
+                </article>
 
-    <p>
-        Learn simple ways to protect your personal information,
-        online accounts and devices from common cyber threats.
-    </p>
+                <article class="info-card">
+                    <h3>Contact Us</h3>
+                    <p>
+                        Send questions, feedback or suggestions about
+                        our cybersecurity awareness resources.
+                    </p>
+                    <a href="contact_us.html">Contact CyberSafe Hub →</a>
+                </article>
+            </div>
+        </section>
 
-    <h3>Cybersecurity Resources</h3>
+        <section class="safety-banner">
+            <div>
+                <h2>Think Before You Click</h2>
+                <p>
+                    Check unfamiliar links, protect your passwords,
+                    update your devices and think carefully before
+                    sharing personal information online.
+                </p>
+            </div>
+            <a href="faq.html" class="button">Learn More</a>
+        </section>
 
-    <p>
-        Explore useful information and resources that can help
-        you develop safer digital habits.
-    </p>
+        <section class="section">
+            <div class="section-heading">
+                <h2>Our Mission</h2>
+                <p>
+                    CyberSafe Hub aims to promote digital awareness
+                    by making cybersecurity information accessible
+                    and encouraging responsible online behaviour.
+                    Our goal is to help users recognise common threats
+                    and take practical steps to protect themselves.
+                </p>
+            </div>
+        </section>
+    </main>
 
-    <h3>Cybersecurity Courses</h3>
+    <footer>
+        <h3>CyberSafe Hub</h3>
+        <p>Your Safety, Our Priority.</p>
 
-    <p>
-        Learn about important cybersecurity topics and improve
-        your knowledge of online safety.
-    </p>
+        <nav aria-label="Footer navigation">
+            <a href="Home.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
 
-    <h3>Cyber News</h3>
-
-    <p>
-        Stay informed about cybersecurity threats, trends and
-        important digital safety updates.
-    </p>
-
-    <h3>Report a Cyber Incident</h3>
-
-    <p>
-        Find out what steps you can take if you experience
-        phishing, scams, malware or other cyber incidents.
-    </p>
-
-    <h3>Frequently Asked Questions</h3>
-
-    <p>
-        Find answers to common questions about cybersecurity
-        and staying safe online.
-    </p>
-
-    <h2>Explore CyberSafe Hub</h2>
-
-    <p>
-        <a href="home.html">Explore Resources</a>
-    </p>
-
-    <p>
-        <a href="courses.html">View Courses</a>
-    </p>
-
-    <p>
-        <a href="news.html">Read Cyber News</a>
-    </p>
-
-    <p>
-        <a href="report_incident.html">Report a Cyber Incident</a>
-    </p>
-
-    <p>
-        <a href="faq.html">Frequently Asked Questions</a>
-    </p>
-
-    <h2>Why Cybersecurity Matters</h2>
-
-    <p>
-        Technology and the internet are an important part of
-        everyday life. However, cyber threats can put our
-        personal information, accounts, devices and privacy
-        at risk.
-    </p>
-
-    <p>
-        Understanding cybersecurity helps us recognise threats,
-        make safer decisions online and protect ourselves from
-        cybercriminals.
-    </p>
-
-    <h2>Start Your CyberSafe Journey</h2>
-
-    <p>
-        Learn. Protect. Stay CyberSafe.
-    </p>
-
-    <p>
-        Take the first step towards becoming more aware and
-        responsible in the digital world.
-    </p>
-
-    <p>
-        <strong>Your Safety, Our Priority.</strong>
-    </p>
-
-</main>
-
-<footer>
-
-    <p>
-        <strong>CYBERSAFE HUB</strong>
-    </p>
-
-    <p>
-        Your Safety, Our Priority.
-    </p>
-
-    <p>
-        &copy; 2026 CyberSafe Hub. All Rights Reserved.
-    </p>
-
-</footer>
-
+        <p>
+            &copy; <span id="currentYear">2026</span>
+            CyberSafe Hub. All rights reserved.
+        </p>
+    </footer>
 </body>
-
+</html>
