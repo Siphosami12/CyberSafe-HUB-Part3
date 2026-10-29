@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/sitemap.xml
+Sitemap: https://siphosami12.github.io/CyberSafe-HUB-Part3/sitemap.xml
